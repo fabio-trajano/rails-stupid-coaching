@@ -1,0 +1,14 @@
+
+<div class="container justify-content-center px-5 w-50">
+  <div class="row mt-4 p-1">
+    <h2><%= @question %></h2>
+  <p>- You</p>
+  </div>
+  <div class="row mt-3 border-left coach-answer p-1">
+    <h2><%= @answer %></h2>
+    <p>- Your Coach</p>
+  </div>
+  <div class="btn btn-light mt-3">
+    <%= link_to "Ask a new question?", ask_path %>
+  </div>
+</div>
